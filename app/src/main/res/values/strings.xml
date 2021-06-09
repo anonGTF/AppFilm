@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AppFilm</string>
+    <string name="poster">poster</string>
+    <string name="fabfav">fabFav</string>
+    <string name="favorite">favorite</string>
+    <string name="tab_text_1">Movies</string>
+    <string name="failed_to_connect">Failed to connect</string>
+    <string name="retry">Retry</string>
+    <string name="tab_text_3">Favorite</string>
+    <string name="poster_favorite">poster favorite</string>
+    <string name="favorite_movie">FAVORITE MOVIE</string>
+    <string name="swipe_to_left_right_to_remove">Swipe to left/right to remove</string>
+    <string name="search_placeholder">search placeholder</string>
+    <string name="lest_start_searching">Lest start searching!</string>
+    <string name="search_placeholder_desc">Search Movies information\nas easy as type it in search box</string>
+    <string name="search_movie_here">Search Movie Here</string>
+    <string name="tab_text_2">Search</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="favorite_menu">Favorite</string>
+</resources>
