@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit
 
 class RetrofitInstance {
     companion object {
-        const val hostname = "api.themoviedb.org"
+        private const val hostname = "api.themoviedb.org"
         private val certificatePinner = CertificatePinner.Builder()
             .add(hostname, "sha256/+vqZVAzTqUP8BGkfl88yU7SQ3C8J2uNEa55B7RZjEg0=")
             .add(hostname, "sha256/JSMzqOOrtyOT1kmau6zKhgT676hGgczD5VMdRMyJZFA=")

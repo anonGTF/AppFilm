@@ -24,7 +24,7 @@ abstract class MovieDatabase : RoomDatabase() {
         @Volatile
         private var instance: MovieDatabase? = null
         private val LOCK = Any()
-        val passphrase: ByteArray = SQLiteDatabase.getBytes("galih".toCharArray())
+        private val passphrase: ByteArray = SQLiteDatabase.getBytes("galih".toCharArray())
         val factory = SupportFactory(passphrase)
 
         operator fun invoke(context: Context) = instance ?: synchronized(LOCK) {

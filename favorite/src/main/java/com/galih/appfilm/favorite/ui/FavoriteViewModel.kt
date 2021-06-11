@@ -9,7 +9,7 @@ import com.galih.appfilm.core.domain.usecase.MovieUseCase
 import kotlinx.coroutines.launch
 
 class FavoriteViewModel (
-    val movieUseCase: MovieUseCase
+    private val movieUseCase: MovieUseCase
     ): ViewModel() {
 
     fun getData(): LiveData<List<Movie>> = movieUseCase.getAllFavMovies().asLiveData()

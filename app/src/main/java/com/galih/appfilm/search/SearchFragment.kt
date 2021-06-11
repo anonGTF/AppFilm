@@ -90,6 +90,7 @@ class SearchFragment : Fragment() {
     private fun handleZeroResult() {
         showErrorMessage("Sorry there is no such movie with that title")
         showSearchPlaceholder()
+        movieAdapter.differ.submitList(null)
     }
 
     private fun handleError(response: Resource.Error<List<Movie>>) {
